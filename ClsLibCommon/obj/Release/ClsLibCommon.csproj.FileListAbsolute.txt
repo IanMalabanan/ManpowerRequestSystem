@@ -1,0 +1,16 @@
+D:\Online_Reports\ClsLibCommon\bin\Release\ClsCommon.dll
+D:\Online_Reports\ClsLibCommon\bin\Release\ClsCommon.pdb
+D:\Online_Reports\ClsLibCommon\obj\Release\ClsCommon.dll
+D:\Online_Reports\ClsLibCommon\obj\Release\ClsCommon.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\ClsLibCommon\bin\Release\ClsCommon.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\ClsLibCommon\bin\Release\ClsCommon.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\ClsLibCommon\obj\Release\ClsCommon.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\ClsLibCommon\obj\Release\ClsCommon.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\ClsLibCommon\obj\Release\ClsLibCommon.csprojAssemblyReference.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\ClsLibCommon\obj\Release\ClsLibCommon.csproj.CoreCompileInputs.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibCommon\bin\Release\ClsCommon.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibCommon\bin\Release\ClsCommon.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibCommon\obj\Release\ClsCommon.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibCommon\obj\Release\ClsCommon.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibCommon\obj\Release\ClsLibCommon.csprojAssemblyReference.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibCommon\obj\Release\ClsLibCommon.csproj.CoreCompileInputs.cache

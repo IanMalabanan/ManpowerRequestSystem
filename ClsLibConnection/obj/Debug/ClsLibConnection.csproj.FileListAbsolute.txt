@@ -1,0 +1,43 @@
+D:\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.Properties.Resources.resources
+D:\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.csproj.GenerateResource.Cache
+D:\Online_Reports\ClsLibConnection\bin\Debug\ClsLibConnection.dll
+D:\Online_Reports\ClsLibConnection\bin\Debug\ClsLibConnection.pdb
+D:\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.dll
+D:\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.pdb
+D:\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.csprojResolveAssemblyReference.cache
+C:\Users\Ian Malabanan\Desktop\Online_Reports\ClsLibConnection\bin\Debug\ClsLibConnection.dll
+C:\Users\Ian Malabanan\Desktop\Online_Reports\ClsLibConnection\bin\Debug\ClsLibConnection.pdb
+C:\Users\Ian Malabanan\Desktop\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.Properties.Resources.resources
+C:\Users\Ian Malabanan\Desktop\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.csproj.GenerateResource.Cache
+C:\Users\Ian Malabanan\Desktop\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.dll
+C:\Users\Ian Malabanan\Desktop\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.pdb
+C:\Users\ian.malabanan\Desktop\Online_Reports\ClsLibConnection\bin\Debug\ClsLibConnection.dll
+C:\Users\ian.malabanan\Desktop\Online_Reports\ClsLibConnection\bin\Debug\ClsLibConnection.pdb
+C:\Users\ian.malabanan\Desktop\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.Properties.Resources.resources
+C:\Users\ian.malabanan\Desktop\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.csproj.GenerateResource.Cache
+C:\Users\ian.malabanan\Desktop\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.dll
+C:\Users\ian.malabanan\Desktop\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.pdb
+C:\Users\ian.malabanan\Desktop\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.csprojResolveAssemblyReference.cache
+C:\Users\Ian Malabanan\Desktop\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.csprojResolveAssemblyReference.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Online_Reports\ClsLibConnection\bin\Debug\ClsLibConnection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Online_Reports\ClsLibConnection\bin\Debug\ClsLibConnection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.Properties.Resources.resources
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.csproj.GenerateResource.Cache
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.csprojResolveAssemblyReference.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\ClsLibConnection\bin\Debug\ClsLibConnection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\ClsLibConnection\bin\Debug\ClsLibConnection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.Properties.Resources.resources
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.csproj.GenerateResource.Cache
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\ClsLibConnection\obj\Debug\ClsLibConnection.csprojResolveAssemblyReference.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibConnection\bin\Debug\ClsLibConnection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibConnection\bin\Debug\ClsLibConnection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibConnection\obj\Debug\ClsLibConnection.Properties.Resources.resources
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibConnection\obj\Debug\ClsLibConnection.csproj.GenerateResource.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibConnection\obj\Debug\ClsLibConnection.csproj.CoreCompileInputs.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibConnection\obj\Debug\ClsLibConnection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibConnection\obj\Debug\ClsLibConnection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibConnection\obj\Debug\ClsLibConnection.csprojAssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Debug\ClsLibBusiness.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Debug\ClsLibBusiness.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Debug\ClsLibConnection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Debug\ClsLibDataAccess.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Debug\ClsLibInterface.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Debug\ClsLibConnection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Debug\ClsLibDataAccess.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Debug\ClsLibInterface.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\obj\Debug\ClsLibBusiness.csprojAssemblyReference.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\obj\Debug\ClsLibBusiness.csproj.CoreCompileInputs.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\obj\Debug\ClsLibBusiness.csproj.CopyComplete
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\obj\Debug\ClsLibBusiness.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\obj\Debug\ClsLibBusiness.pdb

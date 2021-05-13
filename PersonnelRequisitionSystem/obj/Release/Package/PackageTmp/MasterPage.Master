@@ -1,0 +1,390 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="PersonnelRequisitionSystem.MasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="../Bootstraps/AdminLTE_Bootstrap/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../Bootstraps/AdminLTE_Bootstrap/bower_components/font-awesome/css/font-awesome.min.css" />
+
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="../Bootstraps/AdminLTE_Bootstrap/bower_components/Ionicons/css/ionicons.min.css" />
+
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../Bootstraps/AdminLTE_Bootstrap/dist/css/AdminLTE.min.css" />
+
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="../Bootstraps/AdminLTE_Bootstrap/dist/css/skins/_all-skins.min.css" />
+
+    <link href="../Bootstraps/mycss.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="../images/sohbiicon.ico" />
+
+    <!-- Google Font -->
+    <link href="../Bootstraps/Font.css" rel="stylesheet" />
+
+
+    <style>
+        .newfont {
+            font-variant: small-caps;
+            font-weight: bold;
+            letter-spacing: 2.1px;
+        }
+
+
+        /** Columns */
+        .rcbHeader ul,
+        .rcbFooter ul,
+        .rcbItem ul,
+        .rcbHovered ul,
+        .rcbDisabled ul {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            display: inline-block;
+            list-style-type: none;
+        }
+
+        .exampleRadComboBox.RadComboBoxDropDown .rcbHeader {
+            padding: 5px 27px 4px 7px;
+        }
+
+        .rcbScroll {
+            overflow: scroll !important;
+            overflow-x: hidden !important;
+        }
+
+        .col2 {
+            margin: 0;
+            padding: 0 5px 0 0;
+            width: 70%;
+            line-height: 14px;
+            float: left;
+        }
+
+        .col2_2 {
+            margin: 0;
+            padding: 0 5px 0 0;
+            width: 35%;
+            line-height: 14px;
+            float: left;
+        }
+
+        .col3 {
+            margin: 0;
+            padding: 0 5px 0 0;
+            width: 35%;
+            line-height: 14px;
+            float: left;
+        }
+
+        .col1 {
+            margin: 0;
+            padding: 0 5px 0 0;
+            width: 30%;
+            line-height: 14px;
+            float: left;
+        }
+
+        .example-modal .modal {
+            position: relative;
+            top: auto;
+            bottom: auto;
+            right: auto;
+            left: auto;
+            display: block;
+            z-index: 1;
+        }
+
+        .example-modal .modal {
+            background: transparent !important;
+        }
+    </style>
+
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition skin-blue fixed sidebar-mini">
+    <form id="form1" runat="server">
+        <asp:ScriptManager runat="server"></asp:ScriptManager>
+
+        <telerik:RadSkinManager ID="RadSkinManager1" runat="server" ShowChooser="false">
+
+            <TargetControls>
+
+                <telerik:TargetControl Skin="Material" ControlsToApplySkin="RadComboBox" />
+
+                <telerik:TargetControl Skin="Metro" ControlsToApplySkin="RadWindowManager" />
+
+                <telerik:TargetControl Skin="Material" ControlsToApplySkin="RadNotification" />
+
+                <telerik:TargetControl Skin="Metro" ControlsToApplySkin="RadTabStrip" />
+
+            </TargetControls>
+
+        </telerik:RadSkinManager>
+
+        <telerik:RadWindowManager ID="RadWindowManager1" runat="server" Style="z-index: 100000" IconUrl="~/images/sohbiicon.ico">
+        </telerik:RadWindowManager>
+
+        <div class="wrapper">
+
+            <!-- Main Header -->
+            <header class="main-header">
+                <!-- Logo -->
+                <a href="#" class="logo" style="background-color: #222d32;">
+                    <!-- mini logo for sidebar mini 50x50 pixels -->
+                    <span class="logo-mini">
+                        <img src="../images/skpilogopic.png" style="height: 40px; width: 50px;" /></span>
+
+                    <!-- logo for regular state and mobile devices -->
+                    <span class="logo-lg"><b>M</b>anpower <b>R</b>equest</span>
+                </a>
+
+                <!-- Header Navbar -->
+                <nav class="navbar navbar-static-top" role="navigation" style="background-color: #222d32;">
+                    <!-- Sidebar toggle button-->
+                    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                        <span class="sr-only">Toggle navigation</span>
+                    </a>
+
+                    <!-- Navbar Right Menu -->
+                    <div class="navbar-custom-menu" style="color: white; margin-right: 1%;">
+
+                        <h4 style="padding-top: 4px;">
+                            <%--<label runat="server" id="lbluserfname" style="font-weight: normal;"></label>--%>
+                            <asp:Label runat="server" ID="lbluserfname" Style="font-weight: normal;"></asp:Label>
+                        </h4>
+                    </div>
+                </nav>
+
+            </header>
+
+            <!-- Left side column. contains the logo and sidebar -->
+            <aside class="main-sidebar" style="background-color: #222d32;">
+                <!--style="background-color: #222d32;"-->
+
+                <!-- sidebar: style can be found in sidebar.less -->
+                <section class="sidebar">
+
+                    <!-- Sidebar Menu -->
+                    <ul class="sidebar-menu" data-widget="tree">
+                        <li class="header">MAIN NAVIGATION</li>
+                        <!-- Optionally, you can add icons to the links -->
+
+                        <li><a runat="server"><i class="glyphicon glyphicon-home"></i><span>Home</span></a></li>
+
+                        <li><a runat="server" style="cursor: pointer;" onserverclick="Page_PersonnelRequisition">
+                            <i class="glyphicon glyphicon-file"></i><span>Request Manpower</span></a></li>
+
+                        <li><a runat="server" style="cursor: pointer;" onserverclick="Page_AllRequests">
+                            <i class="glyphicon glyphicon-file"></i><span>All Requests</span></a></li>
+
+                        <li style="cursor: pointer;"><a runat="server" id="lnkChangePass" data-toggle="modal" data-target="#modalChangePass">
+                            <i class="glyphicon glyphicon-user"></i><span>Change Password</span></a></li>
+
+                        <li><a runat="server" id="linkSignout" style="cursor: pointer;"
+                            data-toggle="modal" data-target="#modalSignout">
+                            <i class="glyphicon glyphicon-log-out"></i><span>Logout</span></a></li>
+                    </ul>
+                    <!-- /.sidebar-menu -->
+                </section>
+                <!-- /.sidebar -->
+            </aside>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <!-- Main Footer -->
+            <footer class="main-footer">
+                <!-- To the right -->
+                <div class="pull-right hidden-xs">
+                </div>
+                <!-- Default to the left -->
+                <strong>Copyright &copy; 2019 
+
+                   <%-- <%="&copy; " + DateTime.Now.Year %>--%>
+
+                    Sohbi Kohgei (Phils.) Inc.</strong> All rights reserved.
+ 
+            </footer>
+
+        </div>
+
+        <div class="modal fade" id="modalChangePass">
+
+            <div class="modal-dialog">
+
+                <div class="modal-content" style="width: 100%;">
+
+                    <div class="modal-header bg-blue-gradient">
+
+                        <h4 class="modal-title">Change Password</h4>
+
+                    </div>
+
+                    <div class="modal-body alignleft">
+
+                        <div class="alert alert-primary" role="alert" runat="server" visible="false" id="AlertError">
+                            <%=ShowMessage() %>
+                        </div>
+
+                        <!--Row 1-->
+                        <div class="row">
+
+                            <div class="col-lg-12 docconlabels">
+                                <label>New Password:</label>
+                                <asp:TextBox ID="tbnewpass" runat="server" placeholder="Enter Text Here..." CssClass="form-control" TextMode="Password" Width="100%"></asp:TextBox>
+                            </div>
+
+                        </div>
+                        <!--End of Row 1-->
+
+                        <br />
+
+                        <!--Row 2-->
+                        <div class="row">
+
+                            <div class="col-lg-12 docconlabels">
+
+                                <label>Confirm Password:</label>
+
+                                <asp:TextBox ID="tbconfirmpass" runat="server" placeholder="Enter Text Here..." CssClass="form-control" TextMode="Password" Width="100%"></asp:TextBox>
+
+                            </div>
+
+                        </div>
+                        <!--End of Row 2-->
+
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <div class="row">
+
+                            <div class="col-lg-6">
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-6">
+
+                                        <asp:Button ID="btnChangePass" runat="server" class="btn btn-success btn-block btn-flat pull-right"
+                                            Text="Update" OnClick="btnChangePass_Click"/>
+
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <button type="button" class="btn btn-default btn-flat" style="width: 100%" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="modal fade" id="modalSignout">
+
+            <div class="modal-dialog modal-sm">
+
+                <div class="modal-content" style="width: 100%;">
+
+                    <div class="modal-header bg-blue-gradient">
+
+                        <h4 class="modal-title">Confirmation</h4>
+                    </div>
+                    <div class="modal-body aligncenter">
+
+                        <div class="row">
+
+                            <div class="col-lg-12">
+
+                                <h4>Are you sure you want to logout?</h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <div class="row">
+
+                            <div class="col-lg-6">
+                                <asp:Button runat="server" ID="Button5" CssClass="btn btn-primary btn-flat bg-blue-gradient pull-left"
+                                    Style="width: 100px" Text="Yes" OnClick="Logout" />
+                            </div>
+
+                            <div class="col-lg-6">
+
+                                <button type="button" class="btn btn-default btn-flat pull-right" style="width: 100px" data-dismiss="modal">No</button>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <!-- /.modal-content -->
+            </div>
+
+        </div>
+
+        
+
+        <!-- jQuery 3 -->
+        <script src="../Bootstraps/AdminLTE_Bootstrap/bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap 3.3.7 -->
+        <script src="../Bootstraps/AdminLTE_Bootstrap/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- SlimScroll -->
+        <script src="../Bootstraps/AdminLTE_Bootstrap/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+        <!-- FastClick -->
+        <script src="../Bootstraps/AdminLTE_Bootstrap/bower_components/fastclick/lib/fastclick.js"></script>
+        <!-- AdminLTE App -->
+        <script src="../Bootstraps/AdminLTE_Bootstrap/dist/js/adminlte.min.js"></script>
+        <!-- AdminLTE for demo purposes -->
+        <script src="../Bootstraps/AdminLTE_Bootstrap/dist/js/demo.js"></script>
+
+        
+        <script type="text/javascript">
+
+
+            $('#modalChangePass').on('hidden.bs.modal', function () {
+                $('.modal-body').find('label,input,textarea').val('');
+
+            });
+
+        </script>
+
+
+    </form>
+</body>
+</html>

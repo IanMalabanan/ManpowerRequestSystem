@@ -1,0 +1,11 @@
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibDataAccess\bin\Debug\ClsLibDataAccess.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibDataAccess\bin\Debug\ClsLibDataAccess.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibDataAccess\bin\Debug\ClsLibConnection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibDataAccess\bin\Debug\ClsLibInterface.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibDataAccess\bin\Debug\ClsLibConnection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibDataAccess\bin\Debug\ClsLibInterface.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibDataAccess\obj\Debug\ClsLibDataAccess.csprojAssemblyReference.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibDataAccess\obj\Debug\ClsLibDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibDataAccess\obj\Debug\ClsLibDataAccess.csproj.CopyComplete
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibDataAccess\obj\Debug\ClsLibDataAccess.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibDataAccess\obj\Debug\ClsLibDataAccess.pdb

@@ -1,0 +1,74 @@
+C:\Users\Ian Malabanan\Desktop\ISOAP\PACSIS\Connection\bin\Debug\Connection.dll
+C:\Users\Ian Malabanan\Desktop\ISOAP\PACSIS\Connection\bin\Debug\Connection.pdb
+C:\Users\Ian Malabanan\Desktop\ISOAP\PACSIS\Connection\obj\Debug\Connection.Properties.resources.resources
+C:\Users\Ian Malabanan\Desktop\ISOAP\PACSIS\Connection\obj\Debug\Connection.csproj.GenerateResource.Cache
+C:\Users\Ian Malabanan\Desktop\ISOAP\PACSIS\Connection\obj\Debug\Connection.dll
+C:\Users\Ian Malabanan\Desktop\ISOAP\PACSIS\Connection\obj\Debug\Connection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PACSIS\Connection\bin\Debug\Connection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PACSIS\Connection\bin\Debug\Connection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PACSIS\Connection\obj\Debug\Connection.Properties.resources.resources
+C:\Users\ian.malabanan\Desktop\ISOAP\PACSIS\Connection\obj\Debug\Connection.csproj.GenerateResource.Cache
+C:\Users\ian.malabanan\Desktop\ISOAP\PACSIS\Connection\obj\Debug\Connection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PACSIS\Connection\obj\Debug\Connection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PACSIS\Connection\obj\Debug\Connection.csprojResolveAssemblyReference.cache
+C:\Users\Ian Malabanan\Downloads\Compressed\Online_Reports\Connection\bin\Debug\Connection.dll
+C:\Users\Ian Malabanan\Downloads\Compressed\Online_Reports\Connection\bin\Debug\Connection.pdb
+C:\Users\Ian Malabanan\Downloads\Compressed\Online_Reports\Connection\obj\Debug\Connection.csprojResolveAssemblyReference.cache
+C:\Users\Ian Malabanan\Downloads\Compressed\Online_Reports\Connection\obj\Debug\Connection.Properties.resources.resources
+C:\Users\Ian Malabanan\Downloads\Compressed\Online_Reports\Connection\obj\Debug\Connection.csproj.GenerateResource.Cache
+C:\Users\Ian Malabanan\Downloads\Compressed\Online_Reports\Connection\obj\Debug\Connection.dll
+C:\Users\Ian Malabanan\Downloads\Compressed\Online_Reports\Connection\obj\Debug\Connection.pdb
+C:\Users\Ian Malabanan\Desktop\ISOAP\Online_Reports\Connection\bin\Debug\Connection.dll
+C:\Users\Ian Malabanan\Desktop\ISOAP\Online_Reports\Connection\bin\Debug\Connection.pdb
+C:\Users\Ian Malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.Properties.resources.resources
+C:\Users\Ian Malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.csproj.GenerateResource.Cache
+C:\Users\Ian Malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.dll
+C:\Users\Ian Malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.pdb
+C:\Users\Ian Malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.csprojResolveAssemblyReference.cache
+C:\Users\Ian Malabanan\Desktop\Online_Reports\Online_Reports\Connection\bin\Debug\Connection.dll
+C:\Users\Ian Malabanan\Desktop\Online_Reports\Online_Reports\Connection\bin\Debug\Connection.pdb
+C:\Users\Ian Malabanan\Desktop\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.csprojResolveAssemblyReference.cache
+C:\Users\Ian Malabanan\Desktop\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.Properties.Resources.resources
+C:\Users\Ian Malabanan\Desktop\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.csproj.GenerateResource.Cache
+C:\Users\Ian Malabanan\Desktop\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.dll
+C:\Users\Ian Malabanan\Desktop\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\New folder\Online_Reports\Online_Reports\Online_Reports\Connection\bin\Debug\Connection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\New folder\Online_Reports\Online_Reports\Online_Reports\Connection\bin\Debug\Connection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\New folder\Online_Reports\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.Properties.Resources.resources
+C:\Users\ian.malabanan\Desktop\ISOAP\New folder\Online_Reports\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.csproj.GenerateResource.Cache
+C:\Users\ian.malabanan\Desktop\ISOAP\New folder\Online_Reports\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\New folder\Online_Reports\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\New folder\Online_Reports\Connection\bin\Debug\Connection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\New folder\Online_Reports\Connection\bin\Debug\Connection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\New folder\Online_Reports\Connection\obj\Debug\Connection.Properties.Resources.resources
+C:\Users\ian.malabanan\Desktop\ISOAP\New folder\Online_Reports\Connection\obj\Debug\Connection.csproj.GenerateResource.Cache
+C:\Users\ian.malabanan\Desktop\ISOAP\New folder\Online_Reports\Connection\obj\Debug\Connection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\New folder\Online_Reports\Connection\obj\Debug\Connection.pdb
+\\oeq-su-266\c$\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\bin\Debug\Connection.dll
+\\oeq-su-266\c$\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\bin\Debug\Connection.pdb
+\\oeq-su-266\c$\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.csprojResolveAssemblyReference.cache
+\\oeq-su-266\c$\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.Properties.Resources.resources
+\\oeq-su-266\c$\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.csproj.GenerateResource.Cache
+\\oeq-su-266\c$\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.dll
+\\oeq-su-266\c$\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.pdb
+E:\Online_Reports\Connection\bin\Debug\Connection.dll
+E:\Online_Reports\Connection\bin\Debug\Connection.pdb
+E:\Online_Reports\Connection\obj\Debug\Connection.Properties.Resources.resources
+E:\Online_Reports\Connection\obj\Debug\Connection.csproj.GenerateResource.Cache
+E:\Online_Reports\Connection\obj\Debug\Connection.dll
+E:\Online_Reports\Connection\obj\Debug\Connection.pdb
+E:\Online_Reports\Connection\obj\Debug\Connection.csprojResolveAssemblyReference.cache
+E:\Online_Reports\Online_Reports\Connection\bin\Debug\Connection.dll
+E:\Online_Reports\Online_Reports\Connection\bin\Debug\Connection.pdb
+E:\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.Properties.Resources.resources
+E:\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.csproj.GenerateResource.Cache
+E:\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.dll
+E:\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.pdb
+E:\Online_Reports\Online_Reports\Connection\obj\Debug\Connection.csprojResolveAssemblyReference.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\bin\Debug\Connection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\bin\Debug\Connection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.csprojResolveAssemblyReference.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.Properties.Resources.resources
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.csproj.GenerateResource.Cache
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\Online_Reports\Connection\obj\Debug\Connection.pdb

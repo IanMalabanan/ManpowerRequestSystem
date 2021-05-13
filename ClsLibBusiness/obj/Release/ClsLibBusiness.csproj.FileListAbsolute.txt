@@ -1,0 +1,13 @@
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Release\ClsLibBusiness.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Release\ClsLibBusiness.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Release\ClsLibConnection.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Release\ClsLibDataAccess.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Release\ClsLibInterface.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Release\ClsLibConnection.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Release\ClsLibDataAccess.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\bin\Release\ClsLibInterface.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\obj\Release\ClsLibBusiness.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\obj\Release\ClsLibBusiness.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\obj\Release\ClsLibBusiness.csprojAssemblyReference.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\obj\Release\ClsLibBusiness.csproj.CoreCompileInputs.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibBusiness\obj\Release\ClsLibBusiness.csproj.CopyComplete

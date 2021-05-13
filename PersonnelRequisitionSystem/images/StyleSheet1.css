@@ -1,0 +1,435 @@
+﻿ <div class="panel">
+
+                            <div class="box-header with-border bg-default">
+
+                                <button type="button" runat="server" id="btncloseviewing" class="btn btn-box-tool pull-right" onserverclick="CloseMe"><i class="fa fa-times" style="font-size:15px;"></i></button>
+
+
+                                <h2 class=" pull-right" style="margin-top: 3%; margin-right: 2%;">
+
+                                    <b>DOCUMENT CONTROL FORM</b>
+
+                                </h2>
+
+
+
+                                <table>
+
+                                    <tr>
+
+                                        <td rowspan="2" style="padding-top: 3%;">
+
+                                            <img src="../images/skpi%20logo%20pic.png" style="height: 80px; width: 90px;" />
+                                        
+                                        </td>
+
+                                        <td>
+
+                                            <div class="row">
+
+                                                <div class="col-lg-12">
+
+                                                    <h3><b>SOHBI KOHGEI PHILIPPINES, INC.</b></h3>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="row">
+
+                                                <div class="col-lg-12">
+
+                                                    <h5>LIMA Techology Center, Lipa City, Batangas</h5>
+
+                                                </div>
+
+                                            </div>
+
+
+                                        </td>
+
+                                    </tr>
+
+                                </table>
+
+                            </div>
+
+                            <div class="box-body" style="background-color: #fff">
+
+                                <div id="Tabs" role="tabpanel">
+
+                                    <div class="nav-tabs-custom" runat="server">
+
+                                        <ul class="nav nav-tabs">
+                                            <li class=" active aligncenter" style="width: 21%"><a href="#details" aria-controls="details" data-toggle="tab">
+                                                <h5><b>DETAILS</b></h5>
+                                            </a></li>
+
+                                            <li><a href="#rationale" aria-controls="rationale" data-toggle="tab">
+                                                <h5><b>RATIONALE OF DOCUMENT</b></h5>
+                                            </a></li>
+
+                                            <li><a href="#concerneddepartments" data-toggle="tab">
+                                                <h5><b>AFFECTED DEPARTMENT AND SECTIONS</b></h5>
+                                            </a></li>
+                                        </ul>
+
+
+
+
+                                        <div class="tab-content">
+                                            <div class="active tab-pane" id="details" role="tabpanel">
+
+                                                <!-- row 1 -->
+                                                <div class="row">
+
+                                                    <div class="col-lg-4 docconlabels">
+
+                                                        <b>Applicant Name:</b>
+
+                                                    </div>
+
+                                                    <div class="col-lg-4 docconlabels">
+
+                                                        <b>Department:</b>
+
+                                                    </div>
+
+                                                    <div class="col-lg-4 docconlabels">
+
+                                                        <b>Section:</b>
+
+                                                    </div>
+
+                                                </div>
+
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-4">
+
+                                                        <asp:TextBox ID="nametb" runat="server" Enabled="false" CssClass="form-control docontb" TextMode="SingleLine"></asp:TextBox>
+
+                                                    </div>
+
+                                                    <div class="col-lg-4">
+
+                                                        <asp:TextBox ID="deptnametb" runat="server" Enabled="false" CssClass="form-control docontb" TextMode="SingleLine"></asp:TextBox>
+
+                                                    </div>
+
+                                                    <div class="col-lg-4">
+
+                                                        <asp:TextBox ID="sectiontb" runat="server" Enabled="false" CssClass="form-control docontb" TextMode="SingleLine"></asp:TextBox>
+
+                                                    </div>
+
+                                                </div>
+                                                <!-- end row 1 -->
+
+                                                <br />
+
+                                                <!-- row 2 -->
+                                                <div class="row">
+
+                                                    <div class="col-lg-8 docconlabels">
+
+                                                        <b>Title of Document:</b>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-12">
+
+                                                        <asp:TextBox ID="doctitletb" runat="server" Enabled="false" CssClass="form-control docontb" TextMode="SingleLine"></asp:TextBox>
+
+                                                    </div>
+
+                                                </div>
+                                                <!-- end row 2 -->
+
+                                                <br />
+
+                                                <!-- row 3 -->
+                                                <div class="row">
+
+                                                    <div class="col-lg-4 docconlabels">
+
+                                                        <b>Application Type:</b>
+
+                                                    </div>
+
+                                                    <div class="col-lg-6 docconlabels">
+
+                                                        <b>Document Type:</b>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-4">
+
+                                                        <asp:TextBox ID="TextBox3" runat="server" Enabled="false" CssClass="form-control docontb" TextMode="SingleLine"></asp:TextBox>
+
+
+                                                    </div>
+
+                                                    <div class="col-lg-4">
+
+                                                        <asp:TextBox ID="tbapplicationtype" runat="server" Enabled="false" CssClass="form-control docontb" TextMode="SingleLine"></asp:TextBox>
+
+                                                    </div>
+
+                                                    <div class="col-lg-4">
+
+                                                        <asp:TextBox ID="tbdocumenttype" runat="server" Enabled="false" CssClass="form-control docontb" TextMode="SingleLine"></asp:TextBox>
+
+                                                    </div>
+
+                                                </div>
+                                                <!-- end row 3 -->
+
+                                            </div>
+                                            <!-- /.tab-pane details -->
+
+
+
+                                            <div class="tab-pane" id="rationale" role="tabpanel">
+
+                                                <asp:UpdatePanel runat="server">
+
+                                                    <ContentTemplate>
+
+                                                        <div class="row">
+
+                                                            <div class="col-lg-12">
+
+                                                                <asp:GridView ID="gridrationale" runat="server" Width="100%"
+                                                                    AutoGenerateColumns="false" HeaderStyle-BackColor="whitesmoke"
+                                                                    ShowFooter="false" AllowPaging="true" OnPageIndexChanging="OnPaging"
+                                                                    PageSize="15" PagerSettings-Mode="NumericFirstLast" EmptyDataText="No Activities Found"
+                                                                    OnSorting="gridView_Sorting" AllowSorting="true">
+
+                                                                    <Columns>
+
+                                                                        <asp:TemplateField ItemStyle-CssClass="items" ItemStyle-Width="45%" HeaderStyle-CssClass="headers" HeaderText="EXISTING" SortExpression="Code">
+
+                                                                            <ItemTemplate>
+
+                                                                                <%# Eval("Code") %>
+                                                                            </ItemTemplate>
+
+                                                                        </asp:TemplateField>
+
+
+                                                                        <asp:TemplateField ItemStyle-Wrap="true" ItemStyle-CssClass="items" ItemStyle-Width="45%" HeaderStyle-CssClass="headers" HeaderText="PROPOSED" SortExpression="Dept_Description">
+
+                                                                            <ItemTemplate>
+
+                                                                                <%# Eval("Dept_Description") %>
+                                                                            </ItemTemplate>
+
+                                                                        </asp:TemplateField>
+
+                                                                    </Columns>
+
+                                                                    <PagerStyle CssClass="gridview" HorizontalAlign="center" />
+
+                                                                </asp:GridView>
+
+
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </ContentTemplate>
+
+                                                </asp:UpdatePanel>
+
+                                            </div>
+                                            <!-- /.tab-pane rationale -->
+
+                                            <div class="tab-pane" id="concerneddepartments" role="tabpanel">
+                                                <asp:Button runat="server" ID="ianc" />
+                                            </div>
+                                            <!-- /.tab-pane details -->
+
+                                        </div>
+                                        <!-- /.tab-content -->
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="box-footer aligncenter">
+
+                                <div class="row">
+
+                                    <div class="col-lg-12 aligncenter">
+
+                                        <h3>Signing Status</h3>
+
+                                    </div>
+
+                                </div>
+
+                                <%--Progress Tracker--%>
+                                <ol class="track-progress" id="progressSubmitted" runat="server">
+                                    <li class="done">
+                                        <span>Submission</span>
+                                    </li>
+                                    <li class="done">
+                                        <span>Checking</span>
+                                    </li>
+                                    <li class="done">
+                                        <span>Confirmation</span>
+                                    </li>
+                                    <li class="done">
+                                        <span>Approval</span>
+                                    </li>
+                                    <li class="done">
+                                        <span>Received by Smart</span>
+                                    </li>
+                                </ol>
+                                <%--End of Progress Tracker--%>
+                             
+
+                                <%--Progressbar--%>
+                                <div id="divpercentsuccess" class="progress" style="margin-left: 10px; margin-right: 10px; height: 80px">
+                                    
+                                    <div id="progressSubmit" runat="server" class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="16"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 20%; height: 80px; padding-top: 5px;">
+                                        <h4>Prepared By:&nbsp;<label runat="server" id="lblprepared" style="font-weight:normal;">Ian Malabanan</label></h4>
+                                        <h5><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;SUBMITTED</h5>
+                                    </div>
+
+                                    <div id="progressChecked" runat="server" class="progress-bar progressPending progress-bar-striped active" role="progressbar" aria-valuenow="16"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 20%; height: 80px; padding-top: 5px;">
+                                        
+                                        <div id="doneChecking" runat="server" visible="false">
+                                            <h5><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Checked</h5>
+
+                                        </div>
+                                        
+                                        <div id ="onCheckingProcess" runat="server">
+                                            <h4>Checker:&nbsp;<label runat="server" style="font-weight:normal;">Ian Malabanan</label></h4>
+                                            <h5>
+                                            <span class="glyphicon glyphicon-cd"></span>
+                                            &nbsp;&nbsp;Still in Process</h5>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="progressConfirmation" runat="server" class="progress-bar progressPending progress-bar-striped active" role="progressbar" aria-valuenow="16"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 20%; height: 80px;">
+                                        
+                                        <div id="doneConfirmation" runat="server" visible="false">
+                                            <h5><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Confirmed</h5>
+                                        </div>
+
+                                        <div id="onConfirmationProcess" runat="server" style="padding:2%;">
+                                            <h4><a href="#" runat="server">Affected Area</a></h4>
+                                            <h5><span class="glyphicon glyphicon-cd"></span>&nbsp;&nbsp;Still in Process</h5>
+                                        </div>
+                                    
+                                    </div>
+
+                                    <div id="progressApproved" runat="server" class="progress-bar progressPending progress-bar-striped active" role="progressbar" aria-valuenow="20"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 20%; height: 80px;">
+                                        
+                                        <div id="doneApproval" runat="server" visible="false">
+                                            <h5><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Approved</h5>
+
+                                        </div>
+                                        
+                                        <div id="onApprovalProcess" runat="server" style="padding:2%;">
+                                            <h4><a href="#" runat="server">Approvers</a></h4>
+                                            
+                                            <h5><span class="glyphicon glyphicon-cd"></span>&nbsp;&nbsp;Still in Process</h5>
+                                        </div>
+                                    </div>
+
+                                    
+
+                                    <div id="progressReceived" runat="server" class="progress-bar progressPending progress-bar-striped active" role="progressbar" aria-valuenow="20"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 20%; height: 80px; padding-top: 5px;">
+                                        
+                                        <div id="doneReceiving" runat="server" visible="false">
+                                            <h5><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Done</h5>
+                                        </div>
+
+                                        <div id="onReceivingProcess" runat="server" >
+                                            <h4>Smart</h4>
+                                            <h5><span class="glyphicon glyphicon-cd"></span>&nbsp;&nbsp;Still in Process</h5>
+
+                                        </div>
+                                    
+                                    </div>
+
+                                    <div id="progressRejected" runat="server" visible="false" class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="20"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 20%; height: 80px; padding-top: 5px;">
+                                        <h5>Rejected By:&nbsp;<label runat="server" style="font-weight:normal;">Ian Malabanan</label></h5>
+                                        <h5><span class="glyphicon glyphicon-remove"></span>&nbsp;&nbsp;Rejected</h5>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <%--End of Progressbar--%>
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <asp:HiddenField ID="TabName" runat="server" />
+
+
+
+
+
+
+
+
+
+
+
+
+     <script type="text/javascript">
+        $(function () {
+            var tabName = $("[id*=TabName]").val() != "" ? $("[id*=TabName]").val() : "details";
+            $('#Tabs a[href="#' + tabName + '"]').tab('show');
+            $("#Tabs a").click(function () {
+                $("[id*=TabName]").val($(this).attr("href").replace("#", ""));
+            });
+        });
+    </script>
+
+
+
+
+
+ //if (IsPostBack)
+                //{
+                //    TabName.Value = Request.Form[TabName.UniqueID];
+                //}

@@ -1,0 +1,517 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterApproverPage.master.cs" Inherits="PersonnelRequisitionSystem.MasterApproverPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+
+
+
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="../Bootstraps/AdminLTE_Bootstrap/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../Bootstraps/AdminLTE_Bootstrap/bower_components/font-awesome/css/font-awesome.min.css" />
+
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="../Bootstraps/AdminLTE_Bootstrap/bower_components/Ionicons/css/ionicons.min.css" />
+
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../Bootstraps/AdminLTE_Bootstrap/dist/css/AdminLTE.min.css" />
+
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="../Bootstraps/AdminLTE_Bootstrap/dist/css/skins/_all-skins.min.css" />
+
+    <link href="../Bootstraps/mycss.css" rel="stylesheet" />
+
+    <link href="../Bootstraps/Font.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="../images/sohbiicon.ico" />
+
+
+    <!-- jQuery 3 -->
+    <script src="../Bootstraps/AdminLTE_Bootstrap/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap 3.3.7 -->
+    <script src="../Bootstraps/AdminLTE_Bootstrap/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- SlimScroll -->
+    <script src="../Bootstraps/AdminLTE_Bootstrap/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- FastClick -->
+    <script src="../Bootstraps/AdminLTE_Bootstrap/bower_components/fastclick/lib/fastclick.js"></script>
+
+    <!-- AdminLTE App -->
+    <script src="../Bootstraps/AdminLTE_Bootstrap/dist/js/adminlte.min.js"></script>
+
+    <!-- AdminLTE for demo purposes -->
+    <script src="../Bootstraps/AdminLTE_Bootstrap/dist/js/demo.js"></script>
+
+    <script type="text/javascript">
+
+        function Check_Click(objRef) {
+            //Get the Row based on checkbox
+            var row = objRef.parentNode.parentNode;
+            if (objRef.checked) {
+                //If checked change color to Aqua
+                row.style.backgroundColor = "aqua";
+            }
+            else {
+                //If not checked change back to original color
+                if (row.rowIndex % 2 == 0) {
+                    //Alternating Row Color
+                    //row.style.backgroundColor = "#C2D69B";
+                }
+                else {
+                    row.style.backgroundColor = "white";
+                }
+            }
+
+            //Get the reference of GridView
+            var GridView = row.parentNode;
+
+            //Get all input elements in Gridview
+            var inputList = GridView.getElementsByTagName("input");
+
+            for (var i = 0; i < inputList.length; i++) {
+                //The First element is the Header Checkbox
+                var headerCheckBox = inputList[0];
+
+                //Based on all or none checkboxes
+                //are checked check/uncheck Header Checkbox
+                var checked = true;
+
+                if (inputList[i].type == "checkbox" && inputList[i] != headerCheckBox) {
+                    if (!inputList[i].checked) {
+                        checked = false;
+                        break;
+                    }
+                }
+            }
+
+            headerCheckBox.checked = checked;
+
+        }
+
+        function checkAll(objRef) {
+            var GridView = objRef.parentNode.parentNode.parentNode;
+            var inputList = GridView.getElementsByTagName("input");
+            for (var i = 0; i < inputList.length; i++) {
+                //Get the Cell To find out ColumnIndex
+                var row = inputList[i].parentNode.parentNode;
+                if (inputList[i].type == "checkbox" && objRef != inputList[i]) {
+                    if (objRef.checked) {
+                        //If the header checkbox is checked
+                        //check all checkboxes
+                        //and highlight all rows
+                        row.style.backgroundColor = "aqua";
+                        inputList[i].checked = true;
+                    }
+                    else {
+                        //If the header checkbox is checked
+                        //uncheck all checkboxes
+                        //and change rowcolor back to original 
+                        if (row.rowIndex % 2 == 0) {
+                            //Alternating Row Color
+                            //row.style.backgroundColor = "#C2D69B";
+                        }
+                        else {
+                            row.style.backgroundColor = "white";
+                        }
+                        inputList[i].checked = false;
+                    }
+                }
+            }
+        }
+
+        function MouseEvents(objRef, evt) {
+            var checkbox = objRef.getElementsByTagName("input")[0];
+            if (evt.type == "mouseover") {
+                objRef.style.backgroundColor = "white";
+            }
+            else {
+                if (checkbox.checked) {
+                    objRef.style.backgroundColor = "aqua";
+                }
+                else if (evt.type == "mouseout") {
+                    if (objRef.rowIndex % 2 == 0) {
+                        //Alternating Row Color
+                        //objRef.style.backgroundColor = "#C2D69B";
+                    }
+                    else {
+                        objRef.style.backgroundColor = "white";
+                    }
+
+                }
+            }
+        }
+
+    </script>
+
+    <style>
+        @media (min-width: 992px) {
+            .steps {
+                padding: 0px;
+                background: transparent;
+                list-style: none;
+                overflow: hidden;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border-radius: 4px;
+                display: table-row;
+            }
+
+                .steps > li {
+                    display: table-cell;
+                    vertical-align: middle;
+                    width: 1%;
+                    height: 0;
+                }
+
+                    .steps > li + li:before {
+                        padding: 0;
+                        content: "";
+                    }
+
+                .steps li a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 10px 0 10px 35px;
+                    position: relative;
+                    display: inline-block;
+                    width: calc(100% - 10px);
+                    background-color: #999;
+                    text-align: center;
+                    height: 100%;
+                }
+
+                .steps li.completed a {
+                    /*background: #3c763d;*/
+                    background: #00a65a;
+                }
+
+                    .steps li.completed a:after {
+                        /*border-left: 30px solid #3c763d;*/
+                        border-left: 30px solid #00a65a;
+                    }
+
+                .steps li.active a {
+                    background: #3c8dbc;
+                }
+
+                    .steps li.active a:after {
+                        border-left: 30px solid #3c8dbc;
+                    }
+
+                .steps li.rejected_cancelled a {
+                    background: #dd4b39;
+                }
+
+                    .steps li.rejected_cancelled a:after {
+                        border-left: 30px solid #dd4b39;
+                    }
+
+                .steps li.pending a {
+                    background: #ffa500;
+                }
+
+                    .steps li.pending a:after {
+                        border-left: 30px solid #ffa500;
+                    }
+
+
+
+                .steps li:first-child a {
+                    padding-left: 15px;
+                }
+
+                .steps li:last-of-type a {
+                    width: calc(100% - 38px);
+                }
+
+                .steps li a:before {
+                    content: " ";
+                    display: block;
+                    width: 0;
+                    height: 0;
+                    border-top: 50px solid transparent; /* height not equal parent */
+                    border-bottom: 50px solid transparent; /* height not equal parent */
+                    border-left: 30px solid white;
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -50px; /* height not equal parent */
+                    margin-left: 1px;
+                    left: 100%;
+                    z-index: 1;
+                }
+
+                .steps li a:after {
+                    content: " ";
+                    display: block;
+                    width: 0;
+                    height: 0;
+                    border-top: 50px solid transparent; /* height not equal parent */
+                    border-bottom: 50px solid transparent; /* height not equal parent */
+                    border-left: 30px solid #999;
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -50px; /* height not equal parent */
+                    left: 100%;
+                    z-index: 2;
+                }
+        }
+
+        @media (max-width: 991px) {
+            .steps {
+                padding: 8px 15px;
+                margin-bottom: 20px;
+                list-style: none;
+                background-color: #f5f5f5;
+                border-radius: 4px;
+                overflow: auto;
+            }
+
+                .steps > li {
+                    display: block;
+                }
+
+                .steps li a {
+                    color: #777;
+                }
+
+                .steps > li:before {
+                    padding: 0 5px;
+                    color: #ccc;
+                    content: "\e080";
+                    font-family: 'Glyphicons Halflings';
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 1;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                }
+
+                .steps li.completed:before {
+                    content: "\e013";
+                    color: #3c763d;
+                    font-family: 'Glyphicons Halflings';
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 1;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                }
+
+                .steps li.completed a {
+                    color: inherit;
+                }
+
+                .steps li.active:before {
+                    color: #8a6d3b;
+                }
+
+                .steps > .active {
+                    color: #999;
+                }
+
+                .steps li:first-child a {
+                    padding-left: inherit;
+                }
+
+                .steps li:last-of-type a {
+                    width: inherit;
+                }
+        }
+
+        .newfont {
+            font-variant: small-caps;
+            font-weight: bold;
+            letter-spacing: 2.1px;
+        }
+
+        /** Columns */
+        .rcbHeader ul,
+        .rcbFooter ul,
+        .rcbItem ul,
+        .rcbHovered ul,
+        .rcbDisabled ul {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            display: inline-block;
+            list-style-type: none;
+        }
+
+        .exampleRadComboBox.RadComboBoxDropDown .rcbHeader {
+            padding: 5px 27px 4px 7px;
+        }
+
+        .rcbScroll {
+            overflow: scroll !important;
+            overflow-x: hidden !important;
+        }
+
+        .col2 {
+            margin: 0;
+            padding: 0 5px 0 0;
+            width: 70%;
+            line-height: 14px;
+            float: left;
+        }
+
+        .col2_2 {
+            margin: 0;
+            padding: 0 5px 0 0;
+            width: 35%;
+            line-height: 14px;
+            float: left;
+        }
+
+        .col3 {
+            margin: 0;
+            padding: 0 5px 0 0;
+            width: 35%;
+            line-height: 14px;
+            float: left;
+        }
+
+        .col1 {
+            margin: 0;
+            padding: 0 5px 0 0;
+            width: 30%;
+            line-height: 14px;
+            float: left;
+        }
+
+        .example-modal .modal {
+            position: relative;
+            top: auto;
+            bottom: auto;
+            right: auto;
+            left: auto;
+            display: block;
+            z-index: 1;
+        }
+
+        .example-modal .modal {
+            background: transparent !important;
+        }
+    </style>
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition skin-blue layout-top-nav">
+    <form id="form1" runat="server">
+
+        <asp:ScriptManager runat="server"></asp:ScriptManager>
+
+        <telerik:RadSkinManager ID="RadSkinManager1" runat="server" ShowChooser="false">
+            <TargetControls>
+                <telerik:TargetControl Skin="Material" ControlsToApplySkin="RadComboBox" />
+                <telerik:TargetControl Skin="Metro" ControlsToApplySkin="RadWindowManager" />
+                <telerik:TargetControl Skin="Material" ControlsToApplySkin="RadNotification" />
+                <telerik:TargetControl Skin="Metro" ControlsToApplySkin="RadTabStrip" />                
+            </TargetControls>
+        </telerik:RadSkinManager>
+
+        <div class="wrapper">
+
+            <header class="main-header">
+                <!-- nav bar-->
+                <nav class="navbar navbar-static-top navbar-fixed-top" style="background-color: #222d32;">
+
+                    <div class="container">
+
+                        <div class="navbar-header">
+
+                            <div class="navbar-brand" style="padding-top: 3%;">
+
+                                <b style="font-size: 35px;">MANPOWER REQUEST AND MONITORING SYSTEM</b>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                            <ul class="nav navbar-nav hide" style="padding: 3px;">
+
+                                <li><a runat="server" id="linkSignout">Signout<span class="sr-only">(current)</span></a></li>
+
+                            </ul>
+
+                        </div>
+                        <!-- /.navbar-collapse -->
+
+
+                        <!-- Navbar Right Menu -->
+                        <div class="navbar-custom-menu" style="color: white; margin-right: 1%;">
+
+                            <h4 style="padding-top: 5px;">
+                                <label runat="server" id="lbluserfname" class="newfont" style="font-weight: normal;">Hi! Ian Lemuel</label>
+                            </h4>
+                        </div>
+                        <!-- /.navbar-custom-menu -->
+
+                    </div>
+                    <!-- /.container-fluid -->
+
+                </nav>
+                <!-- end of navbar -->
+            </header>
+            <!-- end of header-->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+            </asp:ContentPlaceHolder>
+
+            <div>
+            </div>
+        </div>
+    </form>
+
+    <!-- jQuery 3 -->
+    <script src="../Bootstraps/AdminLTE_Bootstrap/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="../Bootstraps/AdminLTE_Bootstrap/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- SlimScroll -->
+    <script src="../Bootstraps/AdminLTE_Bootstrap/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="../Bootstraps/AdminLTE_Bootstrap/bower_components/fastclick/lib/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../Bootstraps/AdminLTE_Bootstrap/dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../Bootstraps/AdminLTE_Bootstrap/dist/js/demo.js"></script>
+
+    <script type="text/javascript">
+
+        $('#modalReject').on('hidden.bs.modal', function () {
+            $('.modal-body').find('label,input,textarea').val('');
+
+        });
+
+        function RedirectPageToMSN(arg) {
+            window.location.href = '<%= ConfigurationManager.AppSettings["MSNWebPage"] %>';
+        }
+
+        function openmodalDepartmentalObjective() {
+            $('#modalDepartmentalObjective').modal({ show: true });
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibInterface\bin\Release\ClsLibInterface.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibInterface\bin\Release\ClsLibInterface.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibInterface\obj\Release\ClsLibInterface.dll
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibInterface\obj\Release\ClsLibInterface.pdb
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibInterface\obj\Release\ClsLibInterface.csprojAssemblyReference.cache
+C:\Users\ian.malabanan\Desktop\ISOAP\PersonnelRequisitionSystem\ClsLibInterface\obj\Release\ClsLibInterface.csproj.CoreCompileInputs.cache
